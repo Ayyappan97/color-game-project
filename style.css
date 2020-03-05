@@ -1,0 +1,65 @@
+body{
+background-color: #232323;
+margin: 0;
+}
+.square{
+    width: 30%;
+    background:purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: "background 1s";
+
+}
+#container{
+    margin: 0 auto;
+    max-width: 600px;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    background: green;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    line-height: 1.11;
+    text-transform: uppercase;
+    padding: 20 0;
+}
+div{
+    color: white;
+}
+#stripe
+{
+    height: 30px;
+    background: white;
+    text-align: center;
+    color: black;
+
+}
+.selected{
+    background:green;
+    color:white;
+}
+#display{
+    font-size: 200%;
+}
+button{
+    border: 0;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 100;
+    color: green;
+    letter-spacing: inherit;
+    transition: all 2.0s;
+    outline: none;
+}
+button:hover{
+    color: white;
+    background: green;
+}
+#message{
+    display: inline-block;
+    width:20%;
+}
